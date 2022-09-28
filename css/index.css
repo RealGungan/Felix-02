@@ -102,6 +102,7 @@ body {
     margin: 0 auto;
     color: blue;
   }
+  /* de 600 hasta 1000 el footer se ve mal */
 }
 
 /*2 filas,3 columnas*/
@@ -117,5 +118,6 @@ body {
     margin: 0 auto;
     color: blue;
   }
+  
   
 }
