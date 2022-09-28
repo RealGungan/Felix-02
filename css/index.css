@@ -26,8 +26,6 @@ h1 {
   width: 50%;
 }
 
-
-
 body {
   margin: 0 auto;
 }
@@ -35,7 +33,6 @@ body {
 .footer-p {
   padding-top: 0.5%;
   margin: 0 auto;
-
 }
 
 .footer {
@@ -48,6 +45,7 @@ body {
   position: fixed;
   bottom: 0;
 }
+
 /* 6 filas, 1 columna */
 /* ----------- 0 - 600px ----------- */
 @media screen and (max-width: 600px) {
@@ -61,7 +59,12 @@ body {
     margin: 0 auto;
     color: blue;
   }
+
+  .footer {
+    position: relative;
+  }
 }
+
 /* 3 filas, 2 columnas */
 /* ----------- 601 - 1200px ----------- */
 @media screen and (min-width: 601px) and (max-width: 1200px) {
@@ -75,8 +78,8 @@ body {
     margin: 0 auto;
     color: blue;
   }
-
 }
+
 /*2 filas,3 columnas*/
 /* ----------- 1200x ----------- */
 @media screen and (min-width: 1200px) {
@@ -90,5 +93,4 @@ body {
     margin: 0 auto;
     color: blue;
   }
-  
 }
