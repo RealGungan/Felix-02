@@ -1,7 +1,6 @@
 .grid-container {
   display: grid;
   grid-template-columns: auto auto auto;
-  ;
   width: auto;
   grid-gap: 5px;
   width: 50%;
@@ -26,7 +25,20 @@ h1 {
   width: 50%;
 }
 
+.flex-container {
+  width: auto;
+  display:flex;
+  flex-direction: row;
+  margin: 0 auto;
 
+}
+
+.flex-container>div {
+  background-color: rgb(154, 17, 179);
+  text-align: center;
+  padding: 40px 0;
+  font-size: 30px;
+}
 
 body {
   margin: 0 auto;
