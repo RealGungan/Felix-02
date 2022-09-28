@@ -46,10 +46,6 @@ body {
   margin-top: 0px;
 }
 
-
-@media screen and (min-width: 800px) {}
-
-
 /* ----------- 0 - 600px ----------- */
 @media screen and (max-width: 600px) {
   .grid-container {
