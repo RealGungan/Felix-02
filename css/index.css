@@ -31,17 +31,18 @@ h1 {
   flex-direction: row;
   margin: 0 auto;
   justify-content: center;
+  
 }
 
 .flex-container>div {
   background-color: rgb(154, 17, 179);
   text-align: center;
-  padding: 40px 0;
+  /* padding: 40px 0; */
   font-size: 30px;
   width: 100px;
   height: 100px;
-  
-
+  margin:5px;
+  padding: 20px;
 }
 
 body {
@@ -77,6 +78,11 @@ body {
     margin: 0 auto;
     color: blue;
   }
+  .flex-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .footer {
     position: relative;
@@ -111,4 +117,5 @@ body {
     margin: 0 auto;
     color: blue;
   }
+  
 }
