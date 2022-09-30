@@ -27,11 +27,11 @@ h1 {
 
 .flex-container {
   width: auto;
-  display:flex;
+  display: flex;
   flex-direction: row;
   margin: 0 auto;
   justify-content: center;
-  
+
 }
 
 .flex-container>div {
@@ -41,7 +41,7 @@ h1 {
   font-size: 30px;
   width: 100px;
   height: 100px;
-  margin:5px;
+  margin: 5px;
   padding: 20px;
 }
 
@@ -78,6 +78,7 @@ body {
     margin: 0 auto;
     color: blue;
   }
+
   .flex-container {
     flex-direction: column;
     justify-content: center;
@@ -86,6 +87,7 @@ body {
 
   .footer {
     position: relative;
+    margin-top: 3%;
   }
 }
 
@@ -102,7 +104,12 @@ body {
     margin: 0 auto;
     color: blue;
   }
+
   /* de 600 hasta 1000 el footer se ve mal */
+  .footer {
+    position: relative;
+    margin-top: 3%;
+  }
 }
 
 /*2 filas,3 columnas*/
@@ -118,6 +125,9 @@ body {
     margin: 0 auto;
     color: blue;
   }
-  
-  
+
+  .footer {
+    position: relative;
+    margin-top: 3%;
+  }
 }
