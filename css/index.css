@@ -105,7 +105,7 @@ body {
     color: blue;
   }
 
-  /* de 600 hasta 1000 el footer se ve mal */
+  /* a partir de 964 hasta 1600 en adelante el footer no se coloca a pie de pagina*/
   .footer {
     position: relative;
     margin-top: 3%;
