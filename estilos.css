@@ -46,6 +46,13 @@ opacity: 1;
 	
 }
 
+.caja10{
+
+	
+    background-color: antiquewhite;
+	border: saddlebrown solid;
+}
+
 .piramide{
 
 	background-color: antiquewhite;
@@ -58,6 +65,14 @@ opacity: 1;
 	background-position: center center;
 	
 
+}
+
+.flex-container{
+
+	display: flex;
+	
+    justify-content: center;
+	width: auto auto;
 }
 
 @media screen and (min-width: 1200px) {
