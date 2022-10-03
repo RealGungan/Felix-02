@@ -1,0 +1,107 @@
+
+body {
+	background: #1D202B;
+	color: bisque;
+	
+}
+
+.contenedor {
+	height: 90%;
+	
+
+}
+.caja {
+
+	background-size: cover; /*para que no se repita la foto, que cubra todo el fondo*/
+	background-position: center center;
+
+}
+
+p{
+	text-transform:uppercase;
+	color: bisque;
+	font-family: 'Rubik Dirt', cursive;
+	font-size: 15px;
+
+}
+
+.contenedor-grid {
+background-color: antiquewhite;
+
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: repeat(6,1fr);
+justify-content: center;
+gap: 10px;
+padding: 10px;
+text-transform:uppercase;
+opacity: 1;
+
+}
+
+.textos{
+	margin-left: 10px;
+	color: bisque;
+	
+	
+}
+
+.piramide{
+
+	background-color: antiquewhite;
+	
+	border-radius: 10px;
+    padding: 10px;
+	width: 400%px;
+	height: 400px;
+	background-size: cover;
+	background-position: center center;
+	
+
+}
+
+@media screen and (min-width: 1200px) {
+
+.contenedor{
+	height: 90%;
+}
+
+	.contenedor-grid  {
+	  display: grid;
+	  grid-template-columns: auto auto auto;
+	  grid-template-rows: auto auto;
+	  grid-gap: 5px;
+	
+	  
+	}
+	
+	
+  }
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+	.contenedor-grid {
+	  display: grid;
+	  grid-template-columns: auto auto;
+	  grid-template-rows: auto auto auto;
+	  grid-gap: 5px;
+	  margin: 0 auto;
+	 
+	}
+	.contenedor{
+		height: 90%;
+	}
+  }
+
+@media screen and (max-width: 600px) {
+	.contenedor-grid {
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(6,1fr);
+		justify-content: center;
+		gap: 10px;
+		padding: 10px;
+	  
+	 
+	  
+	}
+}
