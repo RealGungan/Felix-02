@@ -1,23 +1,39 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  width: auto;
-  grid-gap: 5px;
-  width: 50%;
-  margin: 0 auto;
+
+body{
+  background-color: rgb(161, 153, 153);
+  font-family: 'Rubik Dirt', cursive;
+
+}
+#felino{
+  
+  background-image: url("img/felino.jfif"); 
+  background-color: darkgreen ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
+  color:azure;
+  
+  opacity: 0.8;
+}
+#canido{
+
+  background-image: url("img/canido.jfif");
+  background-size: cover;
+  background-position: center;
+  color:azure;
+  background-size: 80%;
+ opacity: 0.8;
+}
+#mustelido{
+  
+  background-image: url("img/mustelido.jfif");
+  background-size: cover;
+  background-position: center;
+  color:azure;
+  opacity: 0.9;
 }
 
-.grid-container>div {
-  background-color: red;
-  text-align: center;
-  padding: 40px 0;
-  font-size: 30px;
-}
-
-.primer-parrafo {
-  max-width: 50%;
-  margin: 0 auto;
-}
 
 h1 {
   text-align: center;
@@ -25,36 +41,89 @@ h1 {
   width: 50%;
 }
 
-.flex-container {
+.grid-container {
+  display: grid;
+  grid-template-columns: auto ;
   width: auto;
-  display:flex;
-  flex-direction: row;
+  grid-gap: 5px;
+  width: 50%;
   margin: 0 auto;
-  justify-content: center;
+  background-color: blueviolet;
   
+} 
+
+.caja{
+  
+  width: 150px;
+  height: 150px;
+  border: 3px solid #ccc;
+   background-color: rgb(123, 123, 166); 
+  color:black;
+  margin: 15px;
+ text-align: center;
+ line-height: 150px;
+ font-family: 'Rubik Dirt', cursive;
+ align-items: center;
+ justify-content: center;
+  
+ 
+
 }
 
-.flex-container>div {
+.caja4{
+
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(14, 146, 29);
+  background-color: rgb(155, 37, 60);
+  color:black;
+  margin: 5px;
+ text-align: center;
+ line-height: 30px;
+
+}
+ .flex-container {
+  display: flex;
+  flex-direction: row;
+  border:2px solid black;
+  justify-content: space-around;
+  background-color: beige;
+  align-items:center;
+  height: 75px;
+
+} 
+#caja4_1{
+flex-grow: 1;
+
+}
+#caja4_2{
+  flex-grow: 1;
+  
+}
+#caja4_3{
+  flex-grow: 1;
+  
+  }
+
+/* .flex-container>div {
   background-color: rgb(154, 17, 179);
   text-align: center;
-  /* padding: 40px 0; */
+  padding: 40px 0;
   font-size: 30px;
   width: 100px;
   height: 100px;
   margin:5px;
   padding: 20px;
-}
+} */
 
-body {
-  margin: 0 auto;
-}
 
-.footer-p {
+
+/* .footer-p {
   padding-top: 0.5%;
   margin: 0 auto;
-}
+} */
 
-.footer {
+/* .footer {
   background-color: black;
   color: white;
   text-align: center;
@@ -63,39 +132,30 @@ body {
   margin-top: 0px;
   position: fixed;
   bottom: 0;
-}
+} */
 
 /* 6 filas, 1 columna */
 /* ----------- 0 - 600px ----------- */
 @media screen and (max-width: 600px) {
+ 
   .grid-container {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto;
-    width: auto;
-    grid-gap: 5px;
-    width: 50%;
-    margin: 0 auto;
-    color: blue;
+    
+    
+    
   }
-  .flex-container {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .footer {
-    position: relative;
-  }
+  
 }
 
 /* 3 filas, 2 columnas */
 /* ----------- 601 - 1200px ----------- */
-@media screen and (min-width: 601px) and (max-width: 1200px) {
+/* @media screen and (min-width: 601px) and (max-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto;
+    justify-content: space-between;
     width: auto;
     grid-gap: 5px;
     width: 50%;
@@ -103,15 +163,16 @@ body {
     color: blue;
   }
   /* de 600 hasta 1000 el footer se ve mal */
-}
+/* } */ */
 
 /*2 filas,3 columnas*/
 /* ----------- 1200x ----------- */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto;
+    justify-content: space-between;
     width: auto;
     grid-gap: 5px;
     width: 50%;
@@ -120,4 +181,4 @@ body {
   }
   
   
-}
+} */
