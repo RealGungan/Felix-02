@@ -48,9 +48,11 @@ opacity: 1;
 
 .caja10{
 
-	
+	width: 100%;
     background-color: antiquewhite;
 	border: saddlebrown solid;
+	background-size: cover; /*para que no se repita la foto, que cubra todo el fondo*/
+	background-position: center center;
 }
 
 .piramide{
@@ -72,7 +74,10 @@ opacity: 1;
 	display: flex;
 	
     justify-content: center;
-	width: auto auto;
+	
+	min-height: 100%;
+	
+   
 }
 
 @media screen and (min-width: 1200px) {
